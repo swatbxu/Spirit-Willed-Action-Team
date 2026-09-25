@@ -3755,7 +3755,7 @@ input[type="color"] {
             rgba(8, 11, 11, 0.55) 70%,
             rgba(8, 11, 11, 0.72) 100%
         ),
-        url("./assets/live-with-purpose.jpg");
+        url("./live-with-purpose.jpg");
 
     background-size: cover;
     background-position: center;
