@@ -1,0 +1,2316 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Spirit Willed Action Team | SWAT</title>
+
+    <meta
+        name="description"
+        content="Spirit Willed Action Team — Bible Baptist Church, Capitol Site, Butuan City."
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     WEBSITE HEADER
+===================================================== -->
+
+<header
+    id="siteHeader"
+    class="site-header"
+>
+
+    <a
+        href="#home"
+        class="brand"
+        onclick="showHome(); return false;"
+    >
+
+        <img
+            src="assets/swa-logo.png"
+            alt="SWAT"
+            class="brand-logo"
+        >
+
+        <div class="brand-name">
+
+            <span>SPIRIT WILLED</span>
+
+            <span>ACTION TEAM</span>
+
+        </div>
+
+    </a>
+
+
+    <nav class="main-nav">
+
+        <a
+            href="#home"
+            class="nav-link active"
+            onclick="showHome(); return false;"
+        >
+            HOME
+        </a>
+
+        <a
+            href="#events"
+            class="nav-link"
+            onclick="showEvents(); return false;"
+        >
+            EVENTS
+        </a>
+
+        <a
+            href="#about"
+            class="nav-link"
+            onclick="showAbout(); return false;"
+        >
+            ABOUT
+        </a>
+
+    </nav>
+
+
+    <button
+        class="header-button"
+        onclick="showEvents()"
+    >
+        EXPLORE
+    </button>
+
+</header>
+
+
+
+<!-- =====================================================
+     HOME PAGE
+===================================================== -->
+
+<main
+    id="homePage"
+>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-gradient"></div>
+
+        <div class="hero-glow glow-one"></div>
+
+        <div class="hero-glow glow-two"></div>
+
+
+        <div class="hero-background-logo">
+
+            <img
+                src="assets/swa-logo.png"
+                alt=""
+            >
+
+        </div>
+
+
+        <div class="hero-content">
+
+
+            <div class="hero-logo-wrap">
+
+                <img
+                    src="assets/swa-logo.png"
+                    alt="SWAT"
+                    class="hero-logo"
+                >
+
+            </div>
+
+
+            <p class="hero-eyebrow">
+
+                BIBLE BAPTIST CHURCH ·
+                CAPITOL SITE ·
+                BUTUAN CITY
+
+            </p>
+
+
+            <h1>
+
+                SPIRIT<br>
+
+                <span>WILLED</span><br>
+
+                ACTION TEAM
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                The youth group of Bible Baptist Church,
+                Capitol Site, Butuan City — growing in
+                faith, serving together, and living for Christ.
+
+            </p>
+
+
+            <div class="hero-verse">
+
+                <p>
+                    “Let no man despise thy youth;
+                    but be thou an example of the believers...”
+                </p>
+
+                <span>
+                    1 TIMOTHY 4:12 · KJV
+                </span>
+
+            </div>
+
+
+            <div class="hero-actions">
+
+                <button
+                    class="primary-button"
+                    onclick="showEvents()"
+                >
+
+                    EXPLORE EVENTS
+
+                    <span>→</span>
+
+                </button>
+
+
+                <button
+                    class="secondary-button"
+                    onclick="showAbout()"
+                >
+
+                    ABOUT SWAT
+
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="hero-bottom">
+
+            <span>
+                YOUTH · FAITH · SERVICE · FELLOWSHIP
+            </span>
+
+            <span>
+                SCROLL TO EXPLORE ↓
+            </span>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- PURPOSE -->
+
+    <section class="intro-section">
+
+        <div class="intro-label">
+
+            01 / OUR PURPOSE
+
+        </div>
+
+
+        <div class="intro-content">
+
+            <p class="intro-small">
+
+                FOR CHRIST.
+                FOR OTHERS.
+                FOR HIS GLORY.
+
+            </p>
+
+
+            <h2>
+
+                MAKING EVERY<br>
+
+                <span>MOMENT COUNT.</span>
+
+            </h2>
+
+
+            <p class="intro-text">
+
+                We believe that youth is not simply a season
+                to pass through, but an opportunity to know
+                Christ, serve Him, and encourage others.
+
+                <br><br>
+
+                Through fellowship, ministry, events, and
+                everyday life, SWAT seeks to grow together
+                and use every opportunity for the glory of God.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- EVENTS -->
+
+    <section
+        id="events"
+        class="events-section"
+    >
+
+        <div class="section-heading">
+
+
+            <div>
+
+                <p class="section-label">
+
+                    02 / EVENTS
+
+                </p>
+
+
+                <h2>
+
+                    MAKE EVERY<br>
+
+                    <span>MOMENT COUNT.</span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="section-side">
+
+                <p>
+
+                    Choose an event
+                    to begin your experience.
+
+                </p>
+
+
+                <div class="verse-mini">
+
+                    “Redeeming the time,
+                    because the days are evil.”
+
+                    <span>
+
+                        EPHESIANS 5:16 · KJV
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div
+            id="eventsGrid"
+            class="event-grid"
+        >
+
+
+            <!-- YOUTH SUNDAY -->
+
+            <button
+                class="event-card"
+                onclick="openEvent('youth-sunday')"
+            >
+
+                <div class="event-top">
+
+                    <span>01</span>
+
+                    <span>
+                        YOUTH MINISTRY
+                    </span>
+
+                </div>
+
+
+                <div class="event-main">
+
+                    <h3>
+
+                        YOUTH
+                        <span>SUNDAY</span>
+
+                    </h3>
+
+
+                    <p>
+
+                        “Let no man despise thy youth...”
+
+                        <br>
+
+                        <small>
+                            1 Timothy 4:12 · KJV
+                        </small>
+
+                    </p>
+
+                </div>
+
+
+                <div class="event-bottom">
+
+                    <span>
+                        OPEN EVENT
+                    </span>
+
+                    <span class="event-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </button>
+
+
+
+            <!-- CHURCH ANNIVERSARY -->
+
+            <button
+                class="event-card"
+                onclick="openEvent('church-anniversary')"
+            >
+
+                <div class="event-top">
+
+                    <span>02</span>
+
+                    <span>
+                        CHURCH
+                    </span>
+
+                </div>
+
+
+                <div class="event-main">
+
+                    <h3>
+
+                        CHURCH
+
+                        <span>
+                            ANNIVERSARY
+                        </span>
+
+                    </h3>
+
+
+                    <p>
+
+                        “I will remember the works
+                        of the LORD...”
+
+                        <br>
+
+                        <small>
+                            Psalm 77:11 · KJV
+                        </small>
+
+                    </p>
+
+                </div>
+
+
+                <div class="event-bottom">
+
+                    <span>
+                        OPEN EVENT
+                    </span>
+
+                    <span class="event-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </button>
+
+
+
+            <!-- YOUTH FELLOWSHIP -->
+
+            <button
+                class="event-card"
+                onclick="openEvent('youth-fellowship')"
+            >
+
+                <div class="event-top">
+
+                    <span>03</span>
+
+                    <span>
+                        FELLOWSHIP
+                    </span>
+
+                </div>
+
+
+                <div class="event-main">
+
+                    <h3>
+
+                        YOUTH
+
+                        <span>
+                            FELLOWSHIP
+                        </span>
+
+                    </h3>
+
+
+                    <p>
+
+                        “And let us consider one another
+                        to provoke unto love and to good works.”
+
+                        <br>
+
+                        <small>
+                            Hebrews 10:24 · KJV
+                        </small>
+
+                    </p>
+
+                </div>
+
+
+                <div class="event-bottom">
+
+                    <span>
+                        OPEN EVENT
+                    </span>
+
+                    <span class="event-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </button>
+
+
+
+            <!-- YOUTH CAMP -->
+
+            <button
+                class="event-card featured-event"
+                onclick="openEvent('youth-camp')"
+            >
+
+                <div class="event-top">
+
+                    <span>04</span>
+
+                    <span>
+                        SPECIAL EVENT
+                    </span>
+
+                </div>
+
+
+                <div class="event-main">
+
+                    <h3>
+
+                        YOUTH
+
+                        <span>
+                            CAMP
+                        </span>
+
+                    </h3>
+
+
+                    <p>
+
+                        “But they that wait upon
+                        the LORD shall renew their strength...”
+
+                        <br>
+
+                        <small>
+                            Isaiah 40:31 · KJV
+                        </small>
+
+                    </p>
+
+                </div>
+
+
+                <div class="event-bottom">
+
+                    <span>
+                        OPEN EVENT
+                    </span>
+
+                    <span class="event-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+
+    <section
+        id="about"
+        class="about-section"
+    >
+
+        <div class="about-number">
+
+            03
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="section-label">
+
+                ABOUT SWAT
+
+            </p>
+
+
+            <h2>
+
+                YOUNG.<br>
+
+                <span>FAITHFUL.</span><br>
+
+                READY.
+
+            </h2>
+
+
+            <p class="about-text">
+
+                Spirit Willed Action Team, or SWAT,
+                is the youth group of Bible Baptist Church,
+                Capitol Site, Butuan City.
+
+                <br><br>
+
+                We seek to grow in the Word of God,
+                serve the Lord faithfully, encourage one
+                another, and use the gifts God has given us
+                for His glory.
+
+            </p>
+
+
+            <div class="about-verse">
+
+                <p>
+
+                    “Whatsoever ye do,
+                    do all to the glory of God.”
+
+                </p>
+
+                <span>
+
+                    1 CORINTHIANS 10:31 · KJV
+
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-mark">
+
+            <div class="about-ring"></div>
+
+            <img
+                src="assets/swa-logo.png"
+                alt=""
+            >
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CTA -->
+
+    <section class="cta-section">
+
+        <div class="cta-inner">
+
+            <p class="section-label">
+
+                04 / LET'S BEGIN
+
+            </p>
+
+
+            <h2>
+
+                LIVE WITH<br>
+
+                <span>PURPOSE.</span>
+
+            </h2>
+
+
+            <p>
+
+                “Whether therefore ye eat, or drink,
+                or whatsoever ye do, do all to the glory of God.”
+
+            </p>
+
+
+            <span class="cta-reference">
+
+                1 CORINTHIANS 10:31 · KJV
+
+            </span>
+
+
+            <button
+                class="primary-button"
+                onclick="showEvents()"
+            >
+
+                CHOOSE AN EVENT
+
+                <span>→</span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     EVENT PAGE
+===================================================== -->
+
+<main
+    id="eventPage"
+    class="event-page"
+    style="display:none;"
+>
+
+
+    <div class="event-page-inner">
+
+
+        <button
+            class="back-button"
+            onclick="showEvents()"
+        >
+
+            ← BACK TO EVENTS
+
+        </button>
+
+
+        <div class="event-page-content">
+
+
+            <p
+                id="selectedEventCategory"
+                class="section-label"
+            >
+
+                YOUTH MINISTRY
+
+            </p>
+
+
+            <h1
+                id="selectedEventTitle"
+            >
+
+                YOUTH<br>
+
+                <span>SUNDAY</span>
+
+            </h1>
+
+
+            <p
+                id="selectedEventDescription"
+                class="event-page-description"
+            ></p>
+
+
+            <div class="event-page-verse">
+
+                <p
+                    id="selectedEventVerse"
+                ></p>
+
+                <span
+                    id="selectedEventReference"
+                ></span>
+
+            </div>
+
+
+            <div class="event-page-actions">
+
+                <button
+                    class="primary-button"
+                    onclick="openDesignStudio()"
+                >
+
+                    DESIGN PHOTO
+
+                    <span>→</span>
+
+                </button>
+
+
+                <button
+                    class="secondary-button"
+                    onclick="showEvents()"
+                >
+
+                    CHOOSE ANOTHER EVENT
+
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="event-page-mark">
+
+            <div class="event-mark-ring"></div>
+
+            <img
+                src="assets/swa-logo.png"
+                alt=""
+            >
+
+        </div>
+
+
+    </div>
+
+</main>
+
+
+
+<!-- =====================================================
+     DESIGN STUDIO
+===================================================== -->
+
+<main
+    id="designStudioPage"
+    class="design-studio-page"
+    style="display:none;"
+>
+
+
+    <header class="studio-header">
+
+
+        <div class="studio-brand">
+
+
+            <!-- FIXED: THIS NOW GOES TO HOME -->
+
+            <button
+                class="studio-back"
+                onclick="showHome()"
+                title="Back to Home"
+            >
+
+                ←
+
+            </button>
+
+
+            <div>
+
+                <span>
+                    SWAT PHOTOBOOTH
+                </span>
+
+                <strong id="studioEventName">
+                    EVENT DESIGN
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="studio-mode-buttons">
+
+
+            <button
+                id="designModeButton"
+                class="studio-mode active"
+                onclick="showDesignMode()"
+            >
+
+                DESIGN
+
+            </button>
+
+
+            <button
+                id="boothModeButton"
+                class="studio-mode"
+                onclick="showBoothMode()"
+            >
+
+                BOOTH
+
+            </button>
+
+
+        </div>
+
+
+<div class="studio-actions">
+    <button class="studio-action icon-action" onclick="undo()" title="Undo">↶</button>
+    <button class="studio-action icon-action" onclick="redo()" title="Redo">↷</button>
+
+    <span class="studio-action-divider"></span>
+
+    <button class="studio-action" onclick="openCanvasSettings()">CANVAS</button>
+    <button class="studio-action save-design-button" onclick="saveDesign()">SAVE DESIGN</button>
+    <button class="studio-action delete-design-button" onclick="deleteDesign()">DELETE DESIGN</button>
+</div>
+
+
+    </header>
+
+
+
+    <!-- DESIGN WORKSPACE -->
+
+    <section
+        id="designWorkspace"
+        class="design-workspace"
+    >
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="design-sidebar">
+
+
+            <div class="sidebar-title">
+
+                TOOLS
+
+            </div>
+
+
+            <button
+                class="tool-button"
+                onclick="addText()"
+            >
+
+                + TEXT
+
+            </button>
+
+
+            <button
+                class="tool-button"
+                onclick="addImage()"
+            >
+
+                + IMAGE
+
+            </button>
+
+
+            <button
+                class="tool-button"
+                onclick="addPhotoSlot()"
+            >
+
+                + PHOTO SLOT
+
+            </button>
+
+
+            <button
+                class="tool-button"
+                onclick="addShape()"
+            >
+
+                + SHAPE
+
+            </button>
+
+
+            <div class="sidebar-divider"></div>
+
+
+            <div class="sidebar-title">
+
+                ARRANGE
+
+            </div>
+
+
+            <button
+                class="tool-button small"
+                onclick="bringForward()"
+            >
+
+                BRING FORWARD
+
+            </button>
+
+
+            <button
+                class="tool-button small"
+                onclick="sendBackward()"
+            >
+
+                SEND BACKWARD
+
+            </button>
+
+
+            <button
+                class="tool-button small"
+                onclick="bringToFront()"
+            >
+
+                BRING TO FRONT
+
+            </button>
+
+
+            <button
+                class="tool-button small"
+                onclick="sendToBack()"
+            >
+
+                SEND TO BACK
+
+            </button>
+
+
+            <div class="sidebar-divider"></div>
+
+
+            <div class="sidebar-title">
+
+                OBJECT
+
+            </div>
+
+
+            <button
+                class="tool-button small"
+                onclick="duplicateObject()"
+            >
+
+                DUPLICATE
+
+            </button>
+
+
+            <button
+                class="tool-button small"
+                onclick="toggleLock()"
+            >
+
+                LOCK / UNLOCK
+
+            </button>
+
+
+            <button
+                class="tool-button small"
+                onclick="toggleVisibility()"
+            >
+
+                SHOW / HIDE
+
+            </button>
+
+
+            <button
+                class="tool-button danger"
+                onclick="deleteObject()"
+            >
+
+                DELETE
+
+            </button>
+
+
+            <input
+                type="file"
+                id="imageInput"
+                accept="image/*"
+                hidden
+            >
+
+
+        </aside>
+
+
+
+        <!-- CANVAS -->
+
+        <div class="workspace">
+
+
+            <div class="canvas-toolbar">
+
+
+                <button
+                    onclick="fitCanvas()"
+                >
+
+                    FIT
+
+                </button>
+
+
+                <button
+                    onclick="zoomOut()"
+                >
+
+                    −
+
+                </button>
+
+
+                <span id="zoomValue">
+                    100%
+                </span>
+
+
+                <button
+                    onclick="zoomIn()"
+                >
+
+                    +
+
+                </button>
+
+
+                <button
+                    onclick="resetZoom()"
+                >
+
+                    100%
+
+                </button>
+
+
+            </div>
+
+
+            <div class="canvas-scroll-area">
+
+                <div class="canvas-area">
+
+                    <canvas
+                        id="designCanvas"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- PROPERTIES -->
+
+        <aside class="design-properties">
+
+
+            <div id="objectPanel">
+
+
+                <div class="properties-heading">
+
+                    PROPERTIES
+
+                </div>
+
+
+                <div
+                    id="noSelection"
+                    class="no-selection"
+                >
+
+                    Select an object
+                    to edit its properties.
+
+                </div>
+
+
+                <div
+                    id="objectProperties"
+                    style="display:none;"
+                >
+
+
+                    <!-- POSITION -->
+
+                    <div class="property-section">
+
+
+                        <div class="property-title">
+
+                            POSITION & SIZE
+
+                        </div>
+
+
+                        <div class="property-grid">
+
+
+                            <label>
+
+                                X
+
+                                <input
+                                    id="propX"
+                                    type="number"
+                                >
+
+                            </label>
+
+
+                            <label>
+
+                                Y
+
+                                <input
+                                    id="propY"
+                                    type="number"
+                                >
+
+                            </label>
+
+
+                            <label>
+
+                                WIDTH
+
+                                <input
+                                    id="propWidth"
+                                    type="number"
+                                >
+
+                            </label>
+
+
+                            <label>
+
+                                HEIGHT
+
+                                <input
+                                    id="propHeight"
+                                    type="number"
+                                >
+
+                            </label>
+
+
+                        </div>
+
+
+                        <label class="property-full">
+
+                            ROTATION
+
+                            <input
+                                id="propRotation"
+                                type="number"
+                            >
+
+                        </label>
+
+
+                    </div>
+
+
+
+                    <!-- ALIGN -->
+
+                    <div class="property-section">
+
+
+                        <div class="property-title">
+
+                            ALIGN
+
+                        </div>
+
+
+                        <div class="align-grid">
+
+
+                            <button
+                                onclick="alignLeft()"
+                            >
+                                ←
+                            </button>
+
+
+                            <button
+                                onclick="alignCenterHorizontal()"
+                            >
+                                ↔
+                            </button>
+
+
+                            <button
+                                onclick="alignRight()"
+                            >
+                                →
+                            </button>
+
+
+                            <button
+                                onclick="alignTop()"
+                            >
+                                ↑
+                            </button>
+
+
+                            <button
+                                onclick="alignCenterVertical()"
+                            >
+                                ↕
+                            </button>
+
+
+                            <button
+                                onclick="alignBottom()"
+                            >
+                                ↓
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- TEXT -->
+
+                    <div
+                        id="textProperties"
+                        class="property-section"
+                        style="display:none;"
+                    >
+
+
+                        <div class="property-title">
+
+                            TEXT
+
+                        </div>
+
+
+                        <label class="property-full">
+
+                            FONT
+
+                            <select id="propFont">
+
+                                <option value="Arial">
+                                    Arial
+                                </option>
+
+                                <option value="Helvetica">
+                                    Helvetica
+                                </option>
+
+                                <option value="Georgia">
+                                    Georgia
+                                </option>
+
+                                <option value="Times New Roman">
+                                    Times New Roman
+                                </option>
+
+                                <option value="Verdana">
+                                    Verdana
+                                </option>
+
+                                <option value="Courier New">
+                                    Courier New
+                                </option>
+
+                                <option value="Impact">
+                                    Impact
+                                </option>
+
+                            </select>
+
+                        </label>
+
+
+                        <label class="property-full">
+
+                            FONT SIZE
+
+                            <input
+                                id="propFontSize"
+                                type="number"
+                                min="1"
+                            >
+
+                        </label>
+
+
+                        <label class="color-property">
+
+                            TEXT COLOR
+
+                            <input
+                                id="propTextColor"
+                                type="color"
+                                value="#000000"
+                            >
+
+                        </label>
+
+
+                        <label class="property-full">
+
+                            ALIGNMENT
+
+                            <select id="propTextAlign">
+
+                                <option value="left">
+                                    Left
+                                </option>
+
+                                <option value="center">
+                                    Center
+                                </option>
+
+                                <option value="right">
+                                    Right
+                                </option>
+
+                            </select>
+
+                        </label>
+
+
+                        <div class="property-grid">
+
+
+                            <label>
+
+                                LETTER SPACING
+
+                                <input
+                                    id="propCharSpacing"
+                                    type="number"
+                                >
+
+                            </label>
+
+
+                            <label>
+
+                                LINE HEIGHT
+
+                                <input
+                                    id="propLineHeight"
+                                    type="number"
+                                    step="0.05"
+                                >
+
+                            </label>
+
+
+                        </div>
+
+
+                        <div class="style-buttons">
+
+
+                            <button
+                                id="boldButton"
+                                onclick="toggleBold()"
+                            >
+                                B
+                            </button>
+
+
+                            <button
+                                id="italicButton"
+                                onclick="toggleItalic()"
+                            >
+                                I
+                            </button>
+
+
+                            <button
+                                id="underlineButton"
+                                onclick="toggleUnderline()"
+                            >
+                                U
+                            </button>
+
+
+                        </div>
+
+
+                        <div class="property-grid">
+
+
+                            <label>
+
+                                OUTLINE
+
+                                <input
+                                    id="propStrokeColor"
+                                    type="color"
+                                    value="#000000"
+                                >
+
+                            </label>
+
+
+                            <label>
+
+                                WIDTH
+
+                                <input
+                                    id="propStrokeWidth"
+                                    type="number"
+                                    min="0"
+                                >
+
+                            </label>
+
+
+                        </div>
+
+
+                        <button
+                            id="shadowButton"
+                            class="property-button"
+                            onclick="toggleShadow()"
+                        >
+
+                            ADD SHADOW
+
+                        </button>
+
+
+                    </div>
+
+
+
+                    <!-- IMAGE -->
+
+                    <div
+                        id="imageProperties"
+                        class="property-section"
+                        style="display:none;"
+                    >
+
+
+                        <div class="property-title">
+
+                            IMAGE
+
+                        </div>
+
+
+                        <label class="property-full">
+
+                            OPACITY
+
+                            <input
+                                id="propOpacity"
+                                type="range"
+                                min="0"
+                                max="100"
+                                value="100"
+                            >
+
+                        </label>
+
+
+                        <div class="property-grid-buttons">
+
+
+                            <button
+                                onclick="flipHorizontal()"
+                            >
+
+                                FLIP H
+
+                            </button>
+
+
+                            <button
+                                onclick="flipVertical()"
+                            >
+
+                                FLIP V
+
+                            </button>
+
+
+                        </div>
+
+
+                        <button
+                            class="property-button"
+                            onclick="resetImage()"
+                        >
+
+                            RESET IMAGE
+
+                        </button>
+
+
+                    </div>
+
+
+
+                    <!-- PHOTO SLOT -->
+
+                    <div
+                        id="photoSlotProperties"
+                        class="property-section"
+                        style="display:none;"
+                    >
+
+
+                        <div class="property-title">
+
+                            PHOTO SLOT
+
+                        </div>
+
+
+                        <label class="property-full">
+
+                            SLOT NAME
+
+                            <input
+                                id="propSlotName"
+                                type="text"
+                            >
+
+                        </label>
+
+
+                        <label class="color-property">
+
+                            FILL
+
+                            <input
+                                id="propSlotFill"
+                                type="color"
+                                value="#eeeeee"
+                            >
+
+                        </label>
+
+
+                        <label class="color-property">
+
+                            BORDER
+
+                            <input
+                                id="propSlotStroke"
+                                type="color"
+                                value="#555555"
+                            >
+
+                        </label>
+
+
+                        <div class="property-grid">
+
+
+                            <label>
+
+                                BORDER WIDTH
+
+                                <input
+                                    id="propSlotStrokeWidth"
+                                    type="number"
+                                    min="0"
+                                >
+
+                            </label>
+
+
+                            <label>
+
+                                CORNER RADIUS
+
+                                <input
+                                    id="propSlotRadius"
+                                    type="number"
+                                    min="0"
+                                >
+
+                            </label>
+
+
+                        </div>
+
+
+                        <button
+                            class="property-button"
+                            onclick="resetPhotoSlot()"
+                        >
+
+                            RESET PHOTO SLOT
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- CANVAS SETTINGS -->
+
+            <div
+                id="canvasSettingsPanel"
+                style="display:none;"
+            >
+
+
+                <div class="properties-heading">
+
+                    CANVAS SETTINGS
+
+                </div>
+
+
+                <div class="property-section">
+
+
+                    <label class="property-full">
+
+                        WIDTH
+
+                        <input
+                            id="canvasWidth"
+                            type="number"
+                            value="700"
+                        >
+
+                    </label>
+
+
+                    <label class="property-full">
+
+                        HEIGHT
+
+                        <input
+                            id="canvasHeight"
+                            type="number"
+                            value="500"
+                        >
+
+                    </label>
+
+
+                    <label class="color-property">
+
+                        BACKGROUND
+
+                        <input
+                            id="canvasBackground"
+                            type="color"
+                            value="#ffffff"
+                        >
+
+                    </label>
+
+
+                    <button
+                        class="property-button"
+                        onclick="applyCustomCanvasSize()"
+                    >
+
+                        APPLY SIZE
+
+                    </button>
+
+
+                    <button
+                        class="property-button"
+                        onclick="closeCanvasSettings()"
+                    >
+
+                        BACK TO PROPERTIES
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </aside>
+
+
+    </section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     PHOTOBOOTH
+===================================================== -->
+
+<main
+    id="photoboothPage"
+    class="photobooth-page"
+    style="display:none;"
+>
+
+
+    <div class="photobooth-inner">
+
+
+        <div class="photobooth-topbar">
+
+
+            <button
+                class="back-button"
+                onclick="returnToDesignStudio()"
+            >
+
+                ← BACK TO DESIGN
+
+            </button>
+
+
+            <div class="photobooth-event-name">
+
+                <span>
+                    SWAT
+                </span>
+
+                <strong id="boothEventName">
+                    EVENT
+                </strong>
+
+            </div>
+
+
+            <div class="photobooth-step">
+
+                PHOTO
+
+                <span id="boothStepNumber">
+                    1
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="photobooth-main">
+
+
+            <!-- CAMERA -->
+
+            <div class="booth-camera-container">
+
+
+                <div class="booth-camera-frame">
+
+
+                    <video
+                        id="cameraPreview"
+                        autoplay
+                        playsinline
+                        muted
+                    ></video>
+
+
+                    <div
+                        id="countdown"
+                        class="booth-countdown"
+                    ></div>
+
+
+                    <div
+                        class="camera-corner top-left"
+                    ></div>
+
+
+                    <div
+                        class="camera-corner top-right"
+                    ></div>
+
+
+                    <div
+                        class="camera-corner bottom-left"
+                    ></div>
+
+
+                    <div
+                        class="camera-corner bottom-right"
+                    ></div>
+
+
+                </div>
+
+
+                <div
+                    id="boothStatus"
+                    class="booth-status"
+                >
+
+                    CAMERA STARTING...
+
+                </div>
+
+
+                <!-- PHOTO REVIEW -->
+
+                <div
+                    id="photoReview"
+                    class="booth-photo-review"
+                    style="display:none;"
+                >
+
+
+                    <div class="review-label">
+
+                        REVIEW PHOTO
+
+                    </div>
+
+
+                    <img
+                        id="capturedPhoto"
+                        class="captured-photo"
+                        alt="Captured photo"
+                    >
+
+
+                    <div class="booth-review-controls">
+
+
+                        <button
+                            class="booth-secondary-button"
+                            onclick="retakePhoto()"
+                        >
+
+                            RETAKE
+
+                        </button>
+
+
+                        <button
+                            class="booth-primary-button"
+                            onclick="usePhoto()"
+                        >
+
+                            USE PHOTO →
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- CONTROLS -->
+
+            <div class="booth-controls">
+
+
+                <div class="booth-intro">
+
+
+                    <span class="section-label">
+
+                        PHOTOBOOTH
+
+                    </span>
+
+
+                    <h1>
+
+                        READY TO<br>
+
+                        <span>CAPTURE?</span>
+
+                    </h1>
+
+
+                    <p>
+
+                        Your photo will automatically
+                        be captured after the countdown.
+
+                    </p>
+
+
+                </div>
+
+
+                <div class="booth-progress-box">
+
+
+                    <span class="booth-progress-label">
+
+                        PHOTO PROGRESS
+
+                    </span>
+
+
+                    <strong id="slotProgress">
+
+                        NO PHOTO SLOTS
+
+                    </strong>
+
+
+                </div>
+
+
+                <button
+                    id="startCameraButton"
+                    class="booth-secondary-button booth-wide-button"
+                    onclick="startCamera()"
+                >
+
+                    START CAMERA
+
+                </button>
+
+
+                <button
+                    id="captureButton"
+                    class="booth-capture-button"
+                    onclick="startCapture()"
+                    disabled
+                >
+
+                    <span class="capture-icon"></span>
+
+                    TAKE PHOTO
+
+                </button>
+
+
+                <button
+                    id="previewFinalButton"
+                    class="booth-final-button"
+                    onclick="previewFinalPhoto()"
+                    disabled
+                >
+
+                    VIEW FINAL PHOTO →
+
+                </button>
+
+
+                <button
+                    class="booth-secondary-button booth-wide-button"
+                    onclick="resetBoothSession()"
+                >
+
+                    NEW SESSION
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FINAL PHOTO MODAL
+===================================================== -->
+
+<div
+    id="finalPhotoModal"
+    class="final-photo-modal"
+    style="display:none;"
+>
+
+
+    <div class="final-photo-box">
+
+
+        <div class="final-photo-header">
+
+
+            <div>
+
+                <span class="section-label">
+
+                    FINAL PHOTO
+
+                </span>
+
+
+                <h2>
+
+                    YOUR MOMENT.
+
+                </h2>
+
+            </div>
+
+
+            <button
+                class="modal-close"
+                onclick="closeFinalPhoto()"
+            >
+
+                ×
+
+            </button>
+
+
+        </div>
+
+
+        <div class="final-photo-preview-wrap">
+
+
+            <img
+                id="finalPhotoPreview"
+                alt="Final photo"
+            >
+
+
+        </div>
+
+
+        <div class="final-photo-actions">
+
+
+            <button
+                class="booth-secondary-button"
+                onclick="closeFinalPhoto()"
+            >
+
+                BACK
+
+            </button>
+
+
+            <button
+                class="booth-secondary-button"
+                onclick="saveFinalPhoto()"
+            >
+
+                SAVE PHOTO
+
+            </button>
+
+
+            <button
+                class="booth-primary-button"
+                onclick="printFinalPhoto()"
+            >
+
+                PRINT PHOTO →
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer
+    id="siteFooter"
+    class="site-footer"
+>
+
+
+    <div class="footer-brand">
+
+
+        <img
+            src="assets/swa-logo.png"
+            alt=""
+        >
+
+
+        <div>
+
+
+            <strong>
+
+                SPIRIT WILLED ACTION TEAM
+
+            </strong>
+
+
+            <span>
+
+                BIBLE BAPTIST CHURCH · BUTUAN CITY
+
+            </span>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer-verse">
+
+        “For we walk by faith,
+        not by sight.”
+
+        <span>
+
+            2 CORINTHIANS 5:7 · KJV
+
+        </span>
+
+    </div>
+
+
+    <p class="copyright">
+
+        © 2026 Spirit Willed Action Team
+
+    </p>
+
+
+</footer>
+
+
+
+<!-- =====================================================
+     SCRIPTS
+===================================================== -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/fabric@6.7.1/dist/index.min.js"
+></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
+```
