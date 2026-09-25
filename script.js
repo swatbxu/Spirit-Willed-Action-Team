@@ -5094,7 +5094,7 @@ async function renderFinalComposition() {
                 "png",
 
             multiplier:
-                1
+                4
 
         });
 
